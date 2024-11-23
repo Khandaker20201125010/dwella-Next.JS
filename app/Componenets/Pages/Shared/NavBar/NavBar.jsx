@@ -28,9 +28,9 @@ const NavBar = () => {
       </li>
       <li>
         <Link
-          href="/gallery"
+          href="/add"
           className={`font-bold text-lg ${
-            pathname === "/gallery" ? "text-green-600" : "text-black"
+            pathname === "/add" ? "text-green-600" : "text-black"
           } hover:text-green-600`}
         >
          Add
@@ -50,7 +50,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="container absolute z-50">
+    <div className="container ">
       <div className="navbar bg-transparent">
         <div className="navbar-start fixed z-30 lg:hidden md:hidden">
           <div className="flex  gap-5 lg:gap-10 justify-center items-center">

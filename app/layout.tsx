@@ -31,11 +31,13 @@ export default function RootLayout({
        
        
       <div className="container mx-auto ">
-      <Navbar />
      
+      <Navbar />
         
       <div>
-      {children}
+      <div className="min-h-screen">
+       {children}
+       </div>
       </div>
     
       </div>
